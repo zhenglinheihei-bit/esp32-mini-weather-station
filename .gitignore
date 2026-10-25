@@ -1,0 +1,20 @@
+# PlatformIO
+.pio/
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch/
+
+# 编译产物
+build/
+*.bin
+*.elf
+*.hex
+
+# 本机 WiFi 配置（不要提交真实密码）
+include/secrets.h
+
+# 系统与编辑器杂项
+.DS_Store
+Thumbs.db
+*.swp
